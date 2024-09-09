@@ -14,7 +14,7 @@
         <Host Name="Mailbox"/>
     </Hosts>
     <DefaultSettings>
-        <SourceLocation DefaultValue="https://localhost:8000/taskpane.html"/>
+        <SourceLocation DefaultValue="https://github.com/krisham-ray/outlook-addin.git"/>
     </DefaultSettings>
     <Permissions>ReadWriteMailbox</Permissions>
 </OfficeApp>
