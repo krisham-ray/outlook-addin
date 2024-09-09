@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+    <Id>305a9f4f-e6b7-47dd-945b-9763710602b4</Id>
+    <Version>1.0.0.0</Version>
+    <ProviderName>Your Company</ProviderName>
+    <DefaultLocale>en-US</DefaultLocale>
+    <DisplayName>Your Add-in Name</DisplayName>
+    <Description>Allows user to input comments and send emails</Description>
+    <AppDomains>
+        <AppDomain>https://localhost:8000</AppDomain>
+    </AppDomains>
+    <Hosts>
+        <Host Name="Mailbox"/>
+    </Hosts>
+    <DefaultSettings>
+        <SourceLocation DefaultValue="https://localhost:8000/taskpane.html"/>
+    </DefaultSettings>
+    <Permissions>ReadWriteMailbox</Permissions>
+</OfficeApp>
